@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <remove-project path="hardware/qcom-caf/msm8996/audio" name="crdroidandroid/android_hardware_qcom_audio" remote="crdroid" revision="11.0-caf-msm8996" />
-    <remove-project path="hardware/qcom-caf/msm8996/display" name="crdroidandroid/android_hardware_qcom_display" remote="crdroid" revision="11.0-caf-msm8996" />
-    <remove-project path="hardware/qcom-caf/msm8996/media" name="crdroidandroid/android_hardware_qcom_media" remote="crdroid" revision="11.0-caf-msm8996" />
+    <remove-project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" revision="dot11-caf-msm8996" remote="dot" />
+    <remove-project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" revision="dot11-caf-msm8996" remote="dot" />
+    <remove-project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" revision="dot11-caf-msm8996" remote="dot" />
     
 </manifest>
