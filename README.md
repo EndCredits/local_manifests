@@ -10,7 +10,7 @@ git clone https://github.com/EndCredits/local_manifests.git -b common-11.0-rebra
 ```
 ### Note:
 
-This local_manifest is made for crdroidandroid building.If you need to compile on other custom rom,please manually change the context in 1_remove.xml.
+This local_manifest is made for dotOS building.If you need to compile on other custom rom,please manually change the context in 1_remove.xml.
 
 e.g. (For dotOS)
 
