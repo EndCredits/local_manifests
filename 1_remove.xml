@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <remove-project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996_audio" remote="pixel" />
-    <remove-project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996_media" remote="pixel" />
-    <remove-project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996_display" remote="pixel" />
+  <remote name="pixel"
+          fetch="https://github.com/PixelExperience"
+          revision="eleven"
+          review="gerrit.pixelexperience.org" />
+
+  <remote name="lineage"
+          fetch="https://github.com/LineageOS" />
+
+  <remove-project path="hardware/qcom-caf/msm8996/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-18.1-caf-msm8996" />
+  <remove-project path="hardware/qcom-caf/msm8996/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-18.1-caf-msm8996" />
+  <remove-project path="hardware/qcom-caf/msm8996/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-18.1-caf-msm8996" />
     
 </manifest>
