@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="pixel"
-           fetch="https://gitlab.com/PixelExperience"
+           fetch="https://github.com/PixelExperience"
            revision="twelve" />
 
   <project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom-caf-sm8250_audio" remote="pixel" />
