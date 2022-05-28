@@ -5,7 +5,7 @@
            fetch="https://github.com/PixelExperience"
            revision="twelve" />
 
-  <project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom-caf-sm8250_audio" remote="pixel" />
+  <project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom-caf_sm8250_audio" remote="pixel" />
   <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom-caf_sm8250_display" remote="pixel" />
   <project path="hardware/qcom-caf/sm8250/media" name="hardware_qcom-caf_sm8250_media" remote="pixel" />
 
