@@ -28,7 +28,5 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="credits" revision="sunflowerleaf" />
-
   <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" remote="lineage" revision="lineage-19.1" />
 </manifest>
