@@ -12,6 +12,9 @@
   <remote name="credits"
           fetch="https://github.com/EndCredits/" />
 
+  <remote name="arrow"
+          fetch="https://github.com/ArrowOS" />
+
   <project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom-caf_sm8250_audio" remote="pixel" />
   <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" remote="lineage" revision="lineage-19.1-caf-sm8250" />
   <project path="hardware/qcom-caf/sm8250/media" name="hardware_qcom-caf_sm8250_media" remote="pixel" />
@@ -28,5 +31,5 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
-  <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" remote="lineage" revision="lineage-19.1" />
+  <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" remote="arrow" revision="arrow-12.1" />
 </manifest>
