@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="credits"
+          fetch="https://github.com/EndCredits/" />
+
+  <remote name="credits-gitlab"
+          fetch="https://gitlab.com/EndCredits/" />
+
+  <remote name="lineage"
+          fetch="https://github.com/LineageOS/" />
+
+  <project path="device/xiaomi/picasso" name="android_device_xiaomi_picasso" remote="credits" revision="tango" />
+  <project path="kernel/xiaomi/sm7250" name="clo_msm-4.19" remote="credits" revision="android-4.19-clo" />
+  <project path="vendor/xiaomi/picasso" name="android_vendor_xiaomi_picasso" remote="credits" revision="sunflowerleaf" />
+  <project path="vendor/xiaomi/picasso-firmware" name="android_vendor_xiaomi_picasso-firmware" remote="credits-gitlab" revision="stable" />
+
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage" revision="lineage-20" />
+
+</manifest>
