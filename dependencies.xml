@@ -7,9 +7,6 @@
   <remote name="credits-gitlab"
           fetch="https://gitlab.com/EndCredits/" />
 
-  <remote name="lineage"
-          fetch="https://github.com/LineageOS/" />
-
   <project path="device/xiaomi/picasso" name="android_device_xiaomi_picasso" remote="credits" revision="tango" />
   <project path="kernel/xiaomi/sm7250" name="clo_msm-4.19" remote="credits" revision="android-4.19-clo" />
   <project path="vendor/xiaomi/picasso" name="android_vendor_xiaomi_picasso" remote="credits" revision="sunflowerleaf" />
